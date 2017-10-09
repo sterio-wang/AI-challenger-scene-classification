@@ -13,7 +13,7 @@ In this competition, we provide 80,000+ images comprising 80 unique scene catego
 - [3] Zhou, Bolei and Lapedriza, Agata and Khosla, Aditya and Oliva, Aude and Torralba, Antonio, "Places: A 10 million Image Database for Scene Recognition", IEEE Transactions on Pattern Analysis and Machine Intelligence, 2017.↩
 
 ## Training Log
-### ai challenger scene classification 1st_ver @ Oct 10th:
+### #1 ai challenger scene classification 1st_ver @ Oct 10th:
 ***Train on steps = 1000 @ Step 91 Training Accuracy 0.141... Training Loss 415.706...***
 
 ***Hyperperameters:***
