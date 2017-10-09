@@ -15,13 +15,16 @@ In this competition, we provide 80,000+ images comprising 80 unique scene catego
 ## Training Log
 ### ai challenger scene classification 1st_ver @ Oct 10th:
 ***Train on steps = 1000 @ Step 91 Training Accuracy 0.141... Training Loss 415.706...***
+
 ***Hyperperameters:***
 - num_class = 80
 - image_size = 32
 - batch_size = 64
 - learning_rate =1e-3
 - train_steps = 100
+
 ***3 conv layers***
+
 ***Training image preprocess:***
 - resize to image_size = 32
 - normalization to [-1, 1]
