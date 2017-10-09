@@ -11,3 +11,19 @@ In this competition, we provide 80,000+ images comprising 80 unique scene catego
 - [1] Xiao, Jianxiong and Hays, James and Ehinger, Krista A and Oliva, Aude and Torralba, Antonio, "Sun database: Large-scale scene recognition from abbey to zoo", Computer vision and pattern recognition (CVPR), 2010 IEEE conference on, pp.3485-3492, IEEE, 2015.↩
 - [2] Yu, Fisher and Zhang, Yinda and Song, Shuran and Seff, Ari and Xiao, Jianxiong, "LSUN: Construction of a Large-scale Image Dataset using Deep Learning with Humans in the Loop", arXiv preprint arXiv:1506.03365, 2015.↩
 - [3] Zhou, Bolei and Lapedriza, Agata and Khosla, Aditya and Oliva, Aude and Torralba, Antonio, "Places: A 10 million Image Database for Scene Recognition", IEEE Transactions on Pattern Analysis and Machine Intelligence, 2017.↩
+
+## Training Log
+### ai challenger scene classification 1st_ver @ Oct 10th:
+- ***Train on steps = 1000 @ Step 91 Training Accuracy 0.141... Training Loss 415.706...***
+- ***Hyperperameters:***
+- num_class = 80
+- image_size = 32
+- batch_size = 64
+- learning_rate =1e-3
+- train_steps = 100
+
+- ***3 conv layers***
+
+- ***Training image preprocess:***
+- resize to image_size = 32
+- normalization to [-1, 1]
